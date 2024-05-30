@@ -1,0 +1,185 @@
+.cards {
+    /* display: inline-block; */
+    border-radius: 25px;
+    width: 1504px;
+    height: 257px;
+    top: 1518px;
+    /* left: 208px; */
+    gap: 20px;
+    border-radius: 25px 0px 0px 0px;
+    opacity: 0px;
+    margin-left: 8%;
+
+}
+.content{
+    margin-right: 20%;
+}
+.content1{
+    margin-right: 20%;
+}
+.img {
+    float: left;
+    width: 342px;
+    height: 237px;
+    top: 1548px;
+    left: 215px;
+    gap: 0px;
+    border-radius: 25px 0px 0px 25px;
+    opacity: 0px;
+}
+
+.cards1 {
+    display: inline-block;
+    border-radius: 25px;
+    margin-left: 8%;
+    width: 1504px;
+    height: 257px;
+    top: 1924px;
+    left: 208px;
+    gap: 0px;
+    border-radius: 25px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.cards2 {
+    display: inline-block;
+    border-radius: 25px;
+    margin-left: 8%;
+    width: 1504px;
+    height: 57px;
+    top: 2330px;
+    left: 208px;
+    gap: 0px;
+    border-radius: 25px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.jobs {
+    width: 1519px;
+    height: 97px;
+    top: 1289px;
+    left: 200px;
+    gap: 0px;
+    border-radius: 137px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.jobs h2 {
+    width: 329px;
+    height: 58px;
+    top: 1131px;
+    left: 796px;
+    gap: 0px;
+    opacity: 0px;
+    color: #3C3C3C;
+    margin-left: 50%;
+    font-family: Karla;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 58.45px
+}
+
+.mainsearch {
+    height: 150px;
+}
+
+.search {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    border: 2px solid rgb(226, 197, 197);
+    border-radius: 25px;
+    width: 1250px;
+    height: 60px;
+    margin-left: 15%;
+    text-align: center;
+    align-items: center;
+    font-family: Karla;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.06px;
+    text-align: left;
+
+
+}
+
+.btn {
+    width: 100px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border: red;
+    margin-left: 75%;
+    border-radius: 20px;
+   top: 20px;
+}
+span{
+    font-family: Karla;
+font-size: 20px;
+font-weight: 400;
+line-height: 23.38px;
+text-align: left;
+color: #FF385C;
+
+}
+.small{
+    font-family: Karla;
+font-size: 15px;
+font-weight: 300;
+line-height: 21.04px;
+text-align: justified;
+color: #45454591;
+
+}
+.cards h4{
+    font-family: Lexend;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+color: #454545;
+
+
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    
+}
+
+.imges {
+    flex: 1;
+}
+
+.content {
+    flex: 2;
+    margin-left: 20px;
+}
+.content1 {
+    flex: 2;
+    margin-left: 20px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.mainbtn {
+    margin-top: 20px; 
+}
+.cards1{
+   
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+}
+.cards2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+}

@@ -1,0 +1,22 @@
+.thankyou img{
+    margin-left: 25%;
+    position: relative;
+    width: 1000px;
+}
+.thankyou h2{
+    margin-left: 40%;
+    position: absolute;
+    font-size: 45px;
+    color:  #FF385CAD;
+    margin-top: -20%;
+    text-align: center;
+}
+.thankyoubtn{
+    margin-left: 50%;
+    background-color: red;
+    color: white;
+    border: none;
+    width: 200px;
+    border-radius: 25px;
+    height: 40px;
+}

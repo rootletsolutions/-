@@ -1,0 +1,67 @@
+.check {
+    width: 750px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    margin-left: 30%;
+    width: 754px;
+    height: 586px;
+    top: 1249px;
+    left: 207px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 1px 1px 6px 1px #00000040;
+
+
+}
+
+.checking {
+    height: 630px;
+}
+
+.check p {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: Lexend;
+    font-weight: 500;
+    text-align: justified;
+
+}
+
+.checkin {
+    display: inline-block;
+}
+
+.checkin input {
+    width: 220px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+
+.checkin label {
+    font-size: 15px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.secbtn {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 25px;
+    margin-left: 10%;
+    width: 200px;
+    height: 30px;
+}
+
+.logo11 p {
+    margin-right: 80%;
+}
+
+.final {
+    color: white;
+}

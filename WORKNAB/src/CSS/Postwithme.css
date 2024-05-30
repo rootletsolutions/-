@@ -1,0 +1,362 @@
+.project-request-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-request-form h1,
+.project-request-form h2,
+.project-request-form h3 {
+  text-align: center;
+}
+
+.post h2 {
+  color: black;
+  font-size: 30px;
+}
+
+.post h3 {
+  color: black;
+  font-size: 25px;
+}
+
+.post p {
+  font-size: 20px;
+  color: gray;
+  font-weight: 800;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 100%;
+  width: 450px;
+}
+
+.post {
+  align-items: center;
+  margin-left: 10%;
+}
+
+.project-request-form section {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.btnsubmit23{
+height: 100px;
+}
+.project-request-form input[type="text"],
+.project-request-form input[type="email"],
+.project-request-form input[type="date"],
+.project-request-form textarea {
+  width: 48%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.project-request-form textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.project-request-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.project-request-form input[type="radio"] {
+  margin: 0 10px 0 0;
+}
+
+.project-request-form .firstbtn {
+  display: block;
+  width: 220px;
+  padding: 10px 20px;
+  margin: 20px auto;
+  font-size: 18px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.project-request-form .firstbtn:hover {
+  background-color: #d9534f;
+}
+
+/* Additional styling for responsive layout */
+@media (max-width: 600px) {
+
+  .project-request-form input[type="text"],
+  .project-request-form input[type="email"],
+  .project-request-form input[type="date"],
+  .project-request-form textarea {
+    width: 100%;
+  }
+
+  .post p {
+    margin-right: 0;
+    text-align: center;
+  }
+}
+
+.form-cont {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form-cont h4 {
+  font-size: 20px;
+  color: gray;
+  font-weight: 800;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 100%;
+  width: 500px;
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: 50%;
+}
+
+.category-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid rgb(212, 205, 205);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #d8a656;
+}
+
+.category-button.selected {
+  background-color: #969a9e;
+  color: white;
+}
+
+.category-button:hover {
+  background-color: #9fa6ad;
+  color: white;
+}
+
+.form-section h4 {
+  font-size: 20px;
+  color: gray;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+  width: 500px;
+  margin-right: 50%;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  margin-left: 15%;
+}
+
+.checkbox-group label {
+  width: 200px;
+  margin: 5px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 700;
+
+}
+
+.contain h4 {
+  font-size: 20px;
+  color: gray;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  width: 500px;
+  margin-left: 5%;
+}
+
+.certs, .tools, .summary {
+  margin-bottom: 20px;
+}
+
+.certs label {
+  width: 200px;
+  margin: 5px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 700;
+  margin-left: 10%;
+}
+
+.cert, .tool, .crew-rate, .total-crew, .total-crew-rate {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cert label, .tool label, .crew-rate label, .total-crew label, .total-crew-rate label {
+  flex: 1;
+}
+.cert input[type="radio"]{
+  margin-right: 0%;
+}
+ .tool input[type="checkbox"], .crew-rate input[type="number"], .total-crew input[type="number"], .total-crew-rate input[type="number"] {
+  margin-left: 10px;
+}
+
+.add-requirement {
+  background-color: #d8a656;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: 30%;
+}
+
+.summary h4 {
+  font-size: 30px;
+  color: gray;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+  width: 500px;
+  margin-left: 5%;
+}
+
+
+.crew-rate label{
+  width: 200px;
+  margin: 5px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  margin-left: 10%;
+  font-size: 15px;
+}
+
+.crew-rate input[type="number"] {
+  margin-right: 70%;
+}
+.total-crew label{
+  width: 200px;
+  margin: 5px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  margin-left: 10%;
+  font-size: 15px;
+}
+.total-crew-rate label{
+  width: 200px;
+  margin: 5px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  margin-left: 10%;
+  font-size: 15px;
+}
+.total-crew input[type="number"], .total-crew-rate input[type="number"] {
+  margin-right: 70%;
+}
+.tools{
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+  margin-left: 15%;
+}
+.tools label{
+  width: 200px;
+  margin: 5px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  margin-left: 10%;
+}
+.submitbtn{
+  width: 250px;
+  height: 50px;
+  background-color: black;
+ color: #d8a656;
+ border: none;
+ margin-left: 40%;
+ font-size: 20px;
+ border-radius: 20px;
+}
+
+.certs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  padding-left: 20px;
+  gap: 10px;
+}
+
+.cert {
+  margin-bottom: 10px; 
+}
+
+.cert label {
+  margin-left: 100%; 
+  width: 250px;
+}
+.note, .agreement {
+  background-color: #ffffcc;
+  border-left: 6px solid #ffeb3b;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.submitgroup {
+  margin-bottom: 15px; 
+}
+.submitgroup input{
+  width: 250px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.submitgroup label{
+  font-size: 25px;
+  color: gray;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+  width: 500px;
+  margin-left: 5%;
+}
+.submitgroup input{
+  width: 400px;
+  margin-left: 20%;
+  border: none;
+  border-radius: 20px;
+}
+input[type="text"], input[type="date"] {
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f39191;
+  color: white;
+}
